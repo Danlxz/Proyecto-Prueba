@@ -1,0 +1,101 @@
+html {
+    font: 15px; }
+  
+/* Prueba */
+.dash-content {
+  background: url("../images/fondo3.png");
+  background-size: cover;
+}
+
+.card {
+  -webkit-box-shadow: -1px 4px 24px 5px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 4px 24px 5px rgba(0,0,0,0.75);
+  box-shadow: -1px 4px 24px 5px rgba(0,0,0,0.75);
+}
+
+.dash-title {
+  color: blanchedalmond;
+  font-size: 2rem;
+}
+
+.fa-question-circle:before {
+  font-size: 2rem;
+}
+
+.fa-chevron-circle-left:before {
+  font-size: 2rem;
+}
+
+.input {
+  margin-bottom: 2rem;
+}
+
+.modal input[type = "text"],.modal input[type = "number"],.modal input[type = "email"] {
+  background: none;
+  color:black;
+  border-radius: 24px;
+  text-align: center;
+  border: 2px solid gray;
+}
+
+.modal input[type = "submit"] {
+  border-radius: 24px;
+  border: 2px solid gray;
+}
+
+.modal-content {
+  -webkit-box-shadow: -1px 4px 24px 5px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 4px 24px 5px rgba(0,0,0,0.75);
+  box-shadow: -1px 4px 24px 5px rgba(0,0,0,0.75);
+}
+
+.modal-body {
+  background: gainsboro;
+}
+
+
+/* login */
+.form-screen {
+  background: url("../images/fondo3.png");
+  background-size: cover;
+}
+
+.form-conatiner {
+  -webkit-box-shadow: -1px 4px 24px 5px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 4px 24px 5px rgba(0,0,0,0.75);
+  box-shadow: -1px 4px 24px 5px rgba(0,0,0,0.75);
+  padding: 3rem;
+}
+
+.form-conatiner input[type = "text"],.form-conatiner input[type = "password"] {
+  background: none;
+  color: white;
+  border-radius: 24px;
+  text-align: center;
+  border: 2px solid white;
+}
+
+.form-conatiner input[type = "text"]:focus,.form-conatiner input[type = "password"]:focus {
+  background: black;
+  color: white;
+}
+
+.form-conatiner input::placeholder {
+  color: white;
+}
+
+.form-conatiner input[type = "submit"] {
+  color: white;
+  border-radius: 24px;
+  border: 2px solid white;
+  margin-left: 4rem;
+}
+
+
+
+/* @media (max-width: 767.98px){
+  .dash-content {
+    background: url("../images/fondo2.jpg");
+    background-size: cover;
+  }
+} */
